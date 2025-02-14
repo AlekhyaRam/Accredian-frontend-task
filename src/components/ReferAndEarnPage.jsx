@@ -59,7 +59,7 @@ const ReferAndEarnPage = () => {
     if (validateForm()) {
       setSubmitStatus({ loading: true, error: null });
       try {
-        const response = await axios.post('/api/refer', {
+        const response = await axios.post('api/refer', {
           referrerName: formData.referrerName,
           referrerEmail: formData.referrerEmail,
           friendName: formData.friendName,
