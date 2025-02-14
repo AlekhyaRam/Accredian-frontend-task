@@ -6,7 +6,7 @@ export default defineConfig({
     server: {
         proxy: {
             "/api": {
-                target: "https://friendly-liger-3116b5.netlify.app/",
+                target: "https://accredian-backend-task-u118.onrender.com/",
             },
         },
     },
